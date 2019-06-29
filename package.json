@@ -11,7 +11,6 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@spritejs/demosify-test": "0.0.4",
-    "shelljs": "^0.8.3"
+    "@spritejs/demosify-test": "0.0.5"
   }
 }
