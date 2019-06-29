@@ -1,0 +1,17 @@
+{
+  "name": "demosify-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "demosify  --serve",
+    "build:demo": "demosify"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@spritejs/demosify-test": "0.0.4",
+    "shelljs": "^0.8.3"
+  }
+}
