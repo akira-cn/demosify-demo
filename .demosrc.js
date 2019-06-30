@@ -3,7 +3,10 @@ module.exports = {
     port: 3000,
   },
   source: 'demos',
-  output: 'docs',
+  output: {
+    dir: 'docs',
+    publicUrl: '.',
+  },
   name: 'SPRITEJS',
   version: 'v2',
   homePage: 'https://spritejs.org',
