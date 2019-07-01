@@ -4,13 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "demosify  --serve",
-    "build:demo": "demosify"
+    "start": "cross-env NODE_ENV=development demosify --serve",
+    "build:demo": "cross-env NODE_ENV=production demosify"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@spritejs/demosify-test": "0.0.7"
+    "@demosify/core": "^0.1.2",
+    "cross-env": "^5.2.0"
   }
 }
