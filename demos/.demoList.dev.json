@@ -6,5 +6,18 @@
   {
     "label": "glsl测试",
     "src": "glsl test"
+  }, 
+  {
+    "label": "react测试",
+    "src": "react test"
+  }
+  , 
+  {
+    "label": "TypeScript",
+    "src": "ts test"
+  },
+  {
+    "label": "Vue测试",
+    "src": "vue test"
   }
 ]

@@ -11,7 +11,9 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@demosify/core": "^0.1.2",
+    "@babel/standalone": "^7.4.5",
+    "@demosify/core": "^0.1.4",
     "cross-env": "^5.2.0"
-  }
+  },
+  "dependencies": {}
 }

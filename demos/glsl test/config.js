@@ -2,9 +2,9 @@ import glsl from '../glsl-lang.js';
 
 export default async () => {
   const [htmlCode, jsCode, cssCode] = await Promise.all([
-    import(/* webpackChunkName: "demo-demo1" */ '!raw-loader!../basic/glsl-index.html'),
+    import(/* webpackChunkName: "demo-demo1" */ '!raw-loader!../assets/glsl-index.html'),
     import(/* webpackChunkName: "demo-demo1" */ '!raw-loader!./script.glsl'),
-    import(/* webpackChunkName: "demo-demo1" */ '!raw-loader!../basic/glsl-style.css'),
+    import(/* webpackChunkName: "demo-demo1" */ '!raw-loader!../assets/glsl-style.css'),
   ]);
 
   return {

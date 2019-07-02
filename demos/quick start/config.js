@@ -1,8 +1,8 @@
 export default async () => {
   const [htmlCode, jsCode, cssCode] = await Promise.all([
-    import(/* webpackChunkName: "demo-demo1" */ '!raw-loader!../basic/index.html'),
-    import(/* webpackChunkName: "demo-demo1" */ '!raw-loader!./script.js'),
-    import(/* webpackChunkName: "demo-demo1" */ '!raw-loader!../basic/style.css'),
+    import(/* webpackChunkName: "demo-demo2" */ '!raw-loader!../assets/index.html'),
+    import(/* webpackChunkName: "demo-demo2" */ '!raw-loader!./script.js'),
+    import(/* webpackChunkName: "demo-demo2" */ '!raw-loader!../assets/style.css'),
   ]);
 
   return {
