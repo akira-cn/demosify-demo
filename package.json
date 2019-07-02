@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "cross-env NODE_ENV=development demosify --serve",
-    "build:demo": "cross-env NODE_ENV=production demosify"
+    "build:demo": "cross-env NODE_ENV=production demosify --prod"
   },
   "keywords": [],
   "author": "",
