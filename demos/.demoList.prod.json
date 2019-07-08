@@ -1,14 +1,14 @@
 [
   {
-    "label": "快速入门",
-    "src": "quick start"
+    "label": "spritejs",
+    "src": "spritejs"
   }, 
   {
-    "label": "glsl测试",
+    "label": "glsl",
     "src": "glsl test"
   }, 
   {
-    "label": "react测试",
+    "label": "react",
     "src": "react test"
   }
   , 
@@ -17,7 +17,7 @@
     "src": "ts test"
   },
   {
-    "label": "Vue测试",
+    "label": "Vue",
     "src": "vue test"
   }
 ]

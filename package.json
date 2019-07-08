@@ -4,15 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "cross-env NODE_ENV=development demosify --serve",
-    "build:demo": "cross-env NODE_ENV=production demosify --prod"
+    "demo:dev": "cross-env NODE_ENV=development demosify --serve",
+    "demo:prod": "cross-env NODE_ENV=production demosify --prod"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@babel/standalone": "^7.4.5",
-    "@demosify/core": "^0.1.9",
+    "@demosify/core": "^0.2.1",
     "cross-env": "^5.2.0"
   },
   "dependencies": {}

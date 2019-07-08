@@ -2,9 +2,9 @@ import * as Babel from '@babel/standalone';
 
 export default async () => {
   const [htmlCode, jsCode, cssCode] = await Promise.all([
-    import(/* webpackChunkName: "demo-demo5" */ '!raw-loader!./index.html'),
-    import(/* webpackChunkName: "demo-demo5" */ '!raw-loader!./script.js'),
-    import(/* webpackChunkName: "demo-demo5" */ '!raw-loader!./style.css'),
+    import('!raw-loader!./index.html'),
+    import('!raw-loader!./script.js'),
+    import('!raw-loader!./style.css'),
   ]);
 
   return {
