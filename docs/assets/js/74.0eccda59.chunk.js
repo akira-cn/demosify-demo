@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[74],{477:function(n,o,p){"use strict";p.r(o),o.default="#app {\n  color: white;\n}"}}]);

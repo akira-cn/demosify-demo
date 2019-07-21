@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[66],{467:function(n,e,o){"use strict";o.r(e),e.default="class Hello extends React.Component {\n  render() {\n    return (\n      <h1>Hello</h1>\n    )\n  }\n}\n\nReactDOM.render(\n  <Hello />,\n  document.getElementById('root')\n)"}}]);

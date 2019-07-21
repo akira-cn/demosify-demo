@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[70],{473:function(s,o,e){"use strict";e.r(o),o.default="const message: string = 'hello world';\nconsole.log(message);"}}]);

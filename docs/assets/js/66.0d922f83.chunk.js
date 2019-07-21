@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[66],{467:function(n,o,s){"use strict";s.r(o),o.default="/* globals CONFIG */\nconsole.log(CONFIG);\n"}}]);
